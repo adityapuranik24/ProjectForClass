@@ -35,28 +35,28 @@
 
 #4
 
-cents = int(input("Enter the amount in cents= "))
-# $2 coins or toonies can be given
-toonies = int(cents/200)
-cents = (cents%200)
-# $1 coins or loonies can be given
-loonies = int(cents/100)
-cents = (cents%100)
-# 25 cents coins or quarters can be given
-quarters = int(cents/25)
-cents = (cents%25)
-# 10 cents coins or dimes can be given
-dimes = int(cents/10)
-cents = (cents%10)
-# 5 cents coin or nickles can be given
-nickles = int(cents/5)
-cents = (cents%5)
-#No of remaining cents are equal to pennies
-pennies = cents
-print("Toonies = ", toonies)
-print("Loonies = ", loonies)
-print("Quarters = ", quarters)
-print("Dimes = ", dimes)
-print("Nickles = ", nickles)
-print("Pennies = ", pennies)
-
+# cents = int(input("Enter the amount in cents= "))
+# # $2 coins or toonies can be given
+# toonies = int(cents/200)
+# cents = (cents%200)
+# # $1 coins or loonies can be given
+# loonies = int(cents/100)
+# cents = (cents%100)
+# # 25 cents coins or quarters can be given
+# quarters = int(cents/25)
+# cents = (cents%25)
+# # 10 cents coins or dimes can be given
+# dimes = int(cents/10)
+# cents = (cents%10)
+# # 5 cents coin or nickles can be given
+# nickles = int(cents/5)
+# cents = (cents%5)
+# #No of remaining cents are equal to pennies
+# pennies = cents
+# print("Toonies = ", toonies)
+# print("Loonies = ", loonies)
+# print("Quarters = ", quarters)
+# print("Dimes = ", dimes)
+# print("Nickles = ", nickles)
+# print("Pennies = ", pennies)
+#
